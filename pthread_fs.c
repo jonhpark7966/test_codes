@@ -120,7 +120,12 @@ void* t_function(void*data){
       set_fs_register(
           ldt_index_to_selector(ldtIndex));
 
-	  sleep(5);
+      while(1){
+        int i = 0;
+        i++;
+        sleep(1);	
+      }
+
 }
 
 
