@@ -17,3 +17,8 @@ Just compile it with pthread.
 ```(ex) g++ pthread_fs.cc -lpthread```
 
 Also, static builded binary for 32bit x86 arch is on the repo.
+
+
+### Bugs on Linux Hyper-V Instance.
+
+Refer my linux [bugzilla report](https://bugzilla.kernel.org/show_bug.cgi?id=203937)
