@@ -10,7 +10,7 @@
 
 For windows, the Address of TEB is stored in FS register.
 The Address is not the exact value, because the FS register's value has special format.
-If you not follow this, segfault occurs.
+If you do not follow this, segfault occurs.
 For further information, search LDT.
 
 This codes are setting FS register value to meaning less value.
